@@ -1,6 +1,6 @@
 
 resource "aws_security_group" "jenkins" {
-  name        = "jenkins-sg"
+  name        = "jenkins2-sg"
   description = "Allow HTTP to jenkins server"
   vpc_id      = data.aws_vpc.default.id
 
